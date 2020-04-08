@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19.Common", "Covid19.Common\Covid19.Common.csproj", "{FDEC86BB-0E01-4975-8F7B-5DCFD3CFBE78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid19.Common", "Covid19.Common\Covid19.Common.csproj", "{FDEC86BB-0E01-4975-8F7B-5DCFD3CFBE78}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{FA06E5CE-0532-47E8-AE59-0500AD180557}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{DFD296DE-052A-4B87-9B1E-4E19FA819C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19.Web", "Covid19.Web\Covid19.Web.csproj", "{BF88D560-CE38-4608-96E9-4141AB537583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid19.Web", "Covid19.Web\Covid19.Web.csproj", "{BF88D560-CE38-4608-96E9-4141AB537583}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{AC453647-413B-435D-9B81-AA21EAC1F53A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classic", "Classic", "{04D215EE-9129-498B-BE4C-0D7E3BF4B608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19.UIClassic", "Covid19.UIClassic\Covid19.UIClassic.csproj", "{1E5D41DF-2E07-4B04-991B-9A17D97A3081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid19.UIClassic", "Covid19.UIClassic\Covid19.UIClassic.csproj", "{1E5D41DF-2E07-4B04-991B-9A17D97A3081}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19.UIClassic.iOS", "Covid19.UIClassic.iOS\Covid19.UIClassic.iOS.csproj", "{29883D9A-33B4-43A9-A922-9D6365C1F65F}"
 EndProject
@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19.UIForms.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19.UIForms.iOS", "Covid19.UIForms\Covid19.UIForms.iOS\Covid19.UIForms.iOS.csproj", "{9B4AA912-BBFC-46D9-8E8F-9DBB95F96FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covid19.UIForms", "Covid19.UIForms\Covid19.UIForms\Covid19.UIForms.csproj", "{0BAA357E-42D3-4505-BB21-8DFECF6B2B60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covid19.UIForms", "Covid19.UIForms\Covid19.UIForms\Covid19.UIForms.csproj", "{0BAA357E-42D3-4505-BB21-8DFECF6B2B60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
