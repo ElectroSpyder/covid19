@@ -39,7 +39,7 @@ namespace Covid19.Web
                 cfg.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-           
+            services.AddTransient<SeedDB>();
             services.AddControllersWithViews();
         }
 
