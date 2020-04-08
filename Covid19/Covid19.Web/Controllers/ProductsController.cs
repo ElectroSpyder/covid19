@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Covid19.Web.Data;
-using Covid19.Web.Data.Entities;
-
-namespace Covid19.Web.Controllers
-{
+﻿namespace Covid19.Web.Controllers
+{   
+    using System.Linq;
+    using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Mvc;    
+    using Microsoft.EntityFrameworkCore;
+    using Covid19.Web.Data;
+    using Covid19.Web.Data.Entities;
     public class ProductsController : Controller
     {
         private readonly DataContext _context;
