@@ -40,6 +40,8 @@ namespace Covid19.Web
             });
 
             services.AddTransient<SeedDB>();
+            services.AddScoped<IRepository, Repository>();
+
             services.AddControllersWithViews();
         }
 
