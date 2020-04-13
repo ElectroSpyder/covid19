@@ -24,7 +24,7 @@
         {
             await context.Database.EnsureCreatedAsync();
 
-            var user = await this.userHelper.GetUserByEmailAsync("jzuluaga55@gmail.com");
+            var user = await this.userHelper.GetUserByEmailAsync("prgazure@gmail.com");
             if (user == null)
             {
                 user = new User
